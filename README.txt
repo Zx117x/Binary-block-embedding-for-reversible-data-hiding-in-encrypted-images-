@@ -1,27 +1,28 @@
-Ê¹ÓÃÊ¾ÀýÔÚ´úÂëÖÐÓÐ×¢ÊÍ£¬Õû¸ö¹ý³Ì·ÖÎªÒÔÏÂÈý¸öº¯Êý
+æœ¬é¡¹ç›®ä¸ºæ–‡çŒ®[1]çš„è®ºæ–‡å¤çŽ°ï¼Œé‡‡ç”¨matlabå®žçŽ°
+[1]Yi S , Zhou Y . Binary-block embedding for reversible data hiding in encrypted images[J]. Signal Processing, 2017, 133:40-51.
+è®ºæ–‡é“¾æŽ¥https://doi.org/10.1016/j.sigpro.2016.10.017
+
+ä½¿ç”¨ç¤ºä¾‹åœ¨ä»£ç ä¸­æœ‰æ³¨é‡Šï¼Œæ•´ä¸ªè¿‡ç¨‹åˆ†ä¸ºä»¥ä¸‹ä¸‰ä¸ªå‡½æ•°
 
 
-ÔËÐÐsecretToImage   ÓÃÓÚÕýÏò¼ÓÃÜ
-ÔËÐÐimageRecover  ÓÃÓÚÄæÏò½âÃÜÔ­Í¼Ïñ
-ÔËÐÐdataextraction   ÓÃÓÚ´Ó¼ÓÃÜÍ¼ÖÐÌáÈ¡Ö®Ç°´æÈëµÄÃØÃÜÊý¾Ý
+è¿è¡ŒsecretToImage   ç”¨äºŽæ­£å‘åŠ å¯†
+è¿è¡ŒimageRecover  ç”¨äºŽé€†å‘è§£å¯†åŽŸå›¾åƒ
+è¿è¡Œdataextraction   ç”¨äºŽä»ŽåŠ å¯†å›¾ä¸­æå–ä¹‹å‰å­˜å…¥çš„ç§˜å¯†æ•°æ®
 
 
 
-argmaxC   ÓÃÓÚÂÛÎÄÖÐ¼ÆËãC
-BBE       ÊµÏÖÁËÂÛÎÄÖÐµÄBBEËã·¨
-bin2dec_trans    ÓÃÓÚ½«ÓÃ¾ØÕó±íÊ¾µÄ¶þ½øÖÆÊý×Ö×ª»»ÎªÊ®½øÖÆµÄÊý×Ö
-dataextraction   ÓÃÓÚ´Ó¼ÓÃÜÍ¼ÖÐÌáÈ¡Ö®Ç°´æÈëµÄÃØÃÜÊý¾Ý
-decodeBBE ÊµÏÖÁËÂÛÎÄÖÐ½âÃÜBBEµÄËã·¨£¨Ö÷ÒªÕë¶ÔGOOD-III ºÍ GOOD-IV£©
-extractWithRecover ÊµÏÖ½âÃÜ¸÷ÖÖÀàÐÍµÄBBEËã·¨£¨Ì×ÓÃÁËdecodeBBE·½·¨£©
-generateLSSParameter  Ê¹ÓÃ160Î»¶þ½øÖÆÊý×ÖÉú³ÉLSSµÄ³õÊ¼²ÎÊý
-getImageCapacity  µÃµ½¶þÖµÍ¼ÏñµÄÈÝÄÉÄÜÁ¦
+argmaxC   ç”¨äºŽè®ºæ–‡ä¸­è®¡ç®—C
+BBE       å®žçŽ°äº†è®ºæ–‡ä¸­çš„BBEç®—æ³•
+bin2dec_trans    ç”¨äºŽå°†ç”¨çŸ©é˜µè¡¨ç¤ºçš„äºŒè¿›åˆ¶æ•°å­—è½¬æ¢ä¸ºåè¿›åˆ¶çš„æ•°å­—
+dataextraction   ç”¨äºŽä»ŽåŠ å¯†å›¾ä¸­æå–ä¹‹å‰å­˜å…¥çš„ç§˜å¯†æ•°æ®
+decodeBBE å®žçŽ°äº†è®ºæ–‡ä¸­è§£å¯†BBEçš„ç®—æ³•ï¼ˆä¸»è¦é’ˆå¯¹GOOD-III å’Œ GOOD-IVï¼‰
+extractWithRecover å®žçŽ°è§£å¯†å„ç§ç±»åž‹çš„BBEç®—æ³•ï¼ˆå¥—ç”¨äº†decodeBBEæ–¹æ³•ï¼‰
+generateLSSParameter  ä½¿ç”¨160ä½äºŒè¿›åˆ¶æ•°å­—ç”ŸæˆLSSçš„åˆå§‹å‚æ•°
+getImageCapacity  å¾—åˆ°äºŒå€¼å›¾åƒçš„å®¹çº³èƒ½åŠ›
 getNaWithP
-getSHA1   ·ÂÔìSHA1Ëã·¨
-getType   ¸ù¾ÝblockÄÚµÄÊý¾ÝÅÐ¶ÏËüÊÇÄÄÒ»ÀàÐÍµÄblcok
-ifequal  ÓÃÓÚµ÷ÊÔÑéÖ¤ÕýÄæ¼ÓÃÜ¹ý³Ì
-imageRecover  ÓÃÓÚÄæÏò½âÃÜ
-LSS     LSSËã·¨
-secretToImage   ÓÃÓÚÕýÏò¼ÓÃÜ
-test2
-test    ÀûÓÃÂÛÎÄÖÐµÄÊý¾Ý½øÐÐBBEµÄÑéÖ¤
-typeWithStructure   ÓÃÓÚÉú³É ²»Í¬ÀàÐÍµÄblockÉÐÎ´·ÅÈëÊý¾ÝÊ±µÄÍ¼£¬ÀàËÆÓÚFig.1µÄ µÚ¶þÐÐÍ¼Ïñ
+getType   æ ¹æ®blockå†…çš„æ•°æ®åˆ¤æ–­å®ƒæ˜¯å“ªä¸€ç±»åž‹çš„blcok
+ifequal  ç”¨äºŽè°ƒè¯•éªŒè¯æ­£é€†åŠ å¯†è¿‡ç¨‹
+imageRecover  ç”¨äºŽé€†å‘è§£å¯†
+LSS     LSSç®—æ³•
+secretToImage   ç”¨äºŽæ­£å‘åŠ å¯†
+typeWithStructure   ç”¨äºŽç”Ÿæˆ ä¸åŒç±»åž‹çš„blockå°šæœªæ”¾å…¥æ•°æ®æ—¶çš„å›¾ï¼Œç±»ä¼¼äºŽFig.1çš„ ç¬¬äºŒè¡Œå›¾åƒ
